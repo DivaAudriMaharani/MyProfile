@@ -7,8 +7,7 @@
 </head>
 <body>
 	<nav>
-		<div class="menu-mobile">
-			<a href="#">Menu</a>			
+		<div class="menu-mobile">			
 		</div>
 		<ul>
 			<li><a href="#">HOME</a></li>
@@ -20,11 +19,13 @@
 	</nav>
 
 	<section id="box-profile">
-		<div class="photo" style="background-image: url(hello,jpg)"></div>
+		<div class="img-profile">
+		<div class="photo" style="background-image: url(hello.jpg)"></div>
 		</div>
 		<div class="description">
 			<h1>Diva Audri Maharani</h1>
 			<p>Siswa SMK Telkom Purwokerto</p>
+				<input type="file" name="foto">
 			<a href="#" class="button bg-green">Contact</a>
 			<a href="#" class="button border-blue">Resume</a>
 		</div>
@@ -85,6 +86,20 @@
 			<div class="form">
 				<label>Password</label>
 				<input type="password" name="password">
+			</div>
+			<div class="form">
+			<label>Agama</label>
+			<select name="agama">
+				<option></option>
+				<option>Islam</option>
+				<option>Hindu</option>
+				<option>Kristen</option>
+				<option>Buddha</option>
+			</select>
+			</div>
+			<div class="form">
+				<label>Address</label>
+				<textarea name="alamat"></textarea>
 			</div>
 			<div class="form">
 				<input type="submit" name="submit"
